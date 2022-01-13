@@ -141,11 +141,10 @@
                 placeholder: "Aucune données",
                 columns: [
                     { title: "Nom", field: "name", sorter: "string", width: 200 },
-                    { title: "Date du concert", sorter: "date" },
+                    { title: "Date du concert", field: "date", sorter: "date" },
                 ],
             });
-
-            //myTable.setData("/api/concert");
+            // myTable.setData("/api/concert");
         </script>
     </body>
 </html>
